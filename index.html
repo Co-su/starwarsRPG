@@ -3,14 +3,14 @@
 <head>
 	<title>Star Wars RPG: Game of the Year Edition</title>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-	<link rel="stylesheet" type="text/css" href="javascript.js">
 	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </head>
 <body>
 	<div class="container">
 		<div class="row">
 			<div id="header" class="col-md-12">
-				<h1>Star Wars RPG</h1>
+				<h1>Star Wars Sith(ish) Showdown</h1>
 			</div>
 		</div>
 		<div class="row">
@@ -19,10 +19,10 @@
 			</div>
 			<div class="col-md-1"></div>
 			<div id="charSelect" class="col-md-9">
-				<div class="characterCard" id="charOne"></div>
-				<div class="characterCard" id="charTwo"></div>
-				<div class="characterCard" id="charThree"></div>
-				<div class="characterCard" id="charFour"></div>
+				<div class="characterCard" id="charOne"><p>Darth Vader</p><p id="vaderHealth"></p></div>
+				<div class="characterCard" id="charTwo"><p>Darth Sidious</p><p id="sidHealth"></p></div>
+				<div class="characterCard" id="charThree"><p>Kylo Ren</p><p id="kyloHealth"></p></div>
+				<div class="characterCard" id="charFour"><p>Snoke</p><p id="snokeHealth"></p></div>
 			</div>
 		</div>
 		<div class="row">
@@ -45,7 +45,7 @@
 		</div>
 		<div class="row">
 			<div id="attackInfoZone" class="col-md-12">
-				
+				<button>ATTACK</button>
 			</div>
 		</div>
 		<div class="row">
@@ -63,5 +63,8 @@
 			</div>
 		</div>
 	</div>
+<script src="javascript.js"></script>
+
+
 </body>
 </html>

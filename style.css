@@ -43,10 +43,13 @@ body {
 	height: 100px;
 }
 .characterCard {
-	width: 63px;
-	height: 63px;
+	width: 88px;
+	height: 88px;
 	border: 2px solid black;
 	margin: 10px;
 	position: relative;
 	float: left;
+}
+#attackInfoZone {
+	text-align: center;
 }
